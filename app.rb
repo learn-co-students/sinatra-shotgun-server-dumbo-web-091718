@@ -1,9 +1,9 @@
 require_relative 'config/environment'
-
+ #acts as controller
 class App < Sinatra::Base
 
-  get '/' do 
-    "Welcome to your app!!!! "
+  get '/' do  # Get route
+    "Started my server using Shotgun!"
   end
 
 end
